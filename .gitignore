@@ -37,6 +37,9 @@ nbproject
 validation-status.json
 validation-report.json
 
+# gem
+Gemfile.lock
+
 # Folders to ignore
 node_modules
 package*.json
@@ -52,3 +55,4 @@ _zip
 
 /assets/js/*hydejack-*
 /_sass/*/__*__/*
+
