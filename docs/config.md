@@ -417,18 +417,6 @@ where `cc` is the 2-letter country code and `ll` specifies a 2-letter location c
 You may also change the strings used for formatting dates and times (look out for the `date_formats` key), but be aware that the values you provide need to be valid Ruby [format directives](http://ruby-doc.org/core-2.4.1/Time.html#method-i-strftime).
 
 
-## Adding legal documents
-If you have pages for contact data, privacy policy, cookie policy, etc. you can add links to them in the footer by listing them under the `legal` key in your config file as follows:
-
-```yml
-# file: `_config.yml`
-legal:
-  - title: Impress
-    url:  /impress/
-  - title: Cookies Policy
-    url:  /cookies-policy/
-```
-
 When using Hydejack's offline feature, the pages listed here will be downloaded and cached when loading the page for the first time.
 
 ## Enabling math blocks
