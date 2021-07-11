@@ -28,7 +28,7 @@ description:           >
   Personal blog focused on C++, GPU, rendering among other things.
 
 # A shorter description for the sidebar.
-tagline:               A personal blog about C++ and GPU magic among other things
+tagline:               A blog about C++ and GPU wonders among other things
 
 # A list of keywords for your blog
 keywords:              []
@@ -47,8 +47,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Boids
-    url:               /example/
+  - title:             Particle System Sandbox
+    url:               /pss/
   - title:             About
     url:               /about/
 
