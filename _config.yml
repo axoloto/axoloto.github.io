@@ -146,7 +146,8 @@ defaults:
 
 kramdown:
   math_engine:         mathjax
-  math_engine_opts:    {}
+  math_engine_opts:
+    tags:              'ams'
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
 
