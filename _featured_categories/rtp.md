@@ -10,7 +10,7 @@ slug: rtp
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Everything related to the RealTimeParticles project. Minimalist real-time 3D particles combining DearImGui/OpenGL and OpenCL to admire and play with small-sized (512) to large (130k) particle systems.
+  Minimalist real-time 3D particles combining DearImGui/OpenGL and OpenCL to admire and play with small-sized (512) to large (130k) particle systems.
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
