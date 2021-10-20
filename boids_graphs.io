@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T13:27:48.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="1BQn9UQPepWNaq_eQq54" version="15.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-10-20T14:28:43.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="Wduh3Wq_JSa2zf16DJ-S" version="15.5.0" type="github" pages="2">
   <diagram id="5nwrhSC2a5XxL6fgXqDe" name="Boids">
     <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1118,19 +1118,19 @@
     </mxGraphModel>
   </diagram>
   <diagram id="U2AbPZEf-f72Fiz89OVc" name="Fluids">
-    <mxGraphModel dx="1185" dy="-465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1422" dy="-338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="Mi8snnkDI5Ft30WNR5nc-0" />
         <mxCell id="Mi8snnkDI5Ft30WNR5nc-1" parent="Mi8snnkDI5Ft30WNR5nc-0" />
         <mxCell id="Mi8snnkDI5Ft30WNR5nc-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Physics Engine&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;rounded=1;" vertex="1" parent="Mi8snnkDI5Ft30WNR5nc-1">
-          <mxGeometry x="250" y="1260" width="330" height="470" as="geometry" />
+          <mxGeometry x="250" y="1260" width="330" height="460" as="geometry" />
         </mxCell>
         <mxCell id="Mi8snnkDI5Ft30WNR5nc-3" value="&lt;b style=&quot;line-height: 1&quot;&gt;Position Prediction&lt;br&gt;&lt;/b&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;" vertex="1" parent="Mi8snnkDI5Ft30WNR5nc-1">
           <mxGeometry x="270" y="1290" width="290" height="70" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;ol style=&quot;font-size: 12px&quot;&gt;&lt;li style=&quot;text-align: left&quot;&gt;Apply forces \(\mathbf{v}_i =\mathbf{v}_i + \Delta t \mathbf{f}_{ext}(x_i)\)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Predict position&amp;nbsp; &amp;nbsp;\(\mathbf{x}_i^p = \mathbf{x}_i + \Delta t \mathbf{v}_i\)&lt;/li&gt;&lt;/ol&gt;&lt;div style=&quot;font-size: 12px ; text-align: left&quot;&gt;&amp;nbsp;&lt;/div&gt;" placeholders="1" name="Variable" id="Mi8snnkDI5Ft30WNR5nc-4">
+        <UserObject label="&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;ol style=&quot;font-size: 12px&quot;&gt;&lt;li style=&quot;text-align: left&quot;&gt;Apply forces \(\mathbf{v}_i^t =\mathbf{v}_i^{t-1} + \Delta t \mathbf{f}_{ext}(\mathbf{x}_i^{t-1})\)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Predict position&amp;nbsp; &amp;nbsp;\(\mathbf{x}_i^t = \mathbf{x}_i^{t-1} + \Delta t \mathbf{v}_i^t\)&lt;/li&gt;&lt;/ol&gt;&lt;div style=&quot;font-size: 12px ; text-align: left&quot;&gt;&amp;nbsp;&lt;/div&gt;" placeholders="1" name="Variable" id="Mi8snnkDI5Ft30WNR5nc-4">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;rounded=1;fontSize=10;" vertex="1" parent="Mi8snnkDI5Ft30WNR5nc-1">
-            <mxGeometry x="280" y="1290" width="255" height="67" as="geometry" />
+            <mxGeometry x="275" y="1290" width="280" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="Mi8snnkDI5Ft30WNR5nc-5" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="Mi8snnkDI5Ft30WNR5nc-1" source="Mi8snnkDI5Ft30WNR5nc-2" target="Mi8snnkDI5Ft30WNR5nc-12">
@@ -1139,7 +1139,7 @@
         <mxCell id="Mi8snnkDI5Ft30WNR5nc-6" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;endArrow=classic;endFill=1;" edge="1" parent="Mi8snnkDI5Ft30WNR5nc-1" source="Mi8snnkDI5Ft30WNR5nc-7" target="Mi8snnkDI5Ft30WNR5nc-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mi8snnkDI5Ft30WNR5nc-7" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Position Correction&lt;/b&gt;&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Compute density&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;\(\rho_i\) (NNS)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Compute density constraint \(\lambda_i\) (NNS)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Compute position correction \(\Delta \mathbf{x}_i\) (NNS)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Apply boundary conditions&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Update position prediction \(\mathbf{x}_i^p = \mathbf{x}_i^p + \Delta \mathbf{x}_i\)&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;verticalAlign=top;fillColor=#FFFFFF;rounded=1;" vertex="1" parent="Mi8snnkDI5Ft30WNR5nc-1">
+        <mxCell id="Mi8snnkDI5Ft30WNR5nc-7" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Position Correction&lt;/b&gt;&lt;br&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Compute density&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;\(\rho_i\) (NNS)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Compute density constraint \(\lambda_i\) (NNS)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Compute position correction \(\Delta \mathbf{x}_i\) (NNS)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Apply boundary conditions&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Correct position prediction \(\mathbf{x}_i^t = \mathbf{x}_i^t + \Delta \mathbf{x}_i\)&lt;/li&gt;&lt;/ol&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontColor=#FFFFFF;verticalAlign=top;fillColor=#FFFFFF;rounded=1;" vertex="1" parent="Mi8snnkDI5Ft30WNR5nc-1">
           <mxGeometry x="270" y="1496" width="290" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Mi8snnkDI5Ft30WNR5nc-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Application&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="Mi8snnkDI5Ft30WNR5nc-1">
@@ -1154,11 +1154,11 @@
         <mxCell id="Mi8snnkDI5Ft30WNR5nc-10" value="&lt;div&gt;Call for an update at &lt;i&gt;&lt;b&gt;t&lt;/b&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;" vertex="1" parent="Mi8snnkDI5Ft30WNR5nc-1">
           <mxGeometry x="420" y="1220" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Mi8snnkDI5Ft30WNR5nc-11" value="&lt;b&gt;Position and Velocity Update&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;align=center;" vertex="1" parent="Mi8snnkDI5Ft30WNR5nc-1">
-          <mxGeometry x="270" y="1640" width="290" height="70" as="geometry" />
+        <mxCell id="Mi8snnkDI5Ft30WNR5nc-11" value="&lt;b&gt;Velocity Correction&lt;br&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;align=center;" vertex="1" parent="Mi8snnkDI5Ft30WNR5nc-1">
+          <mxGeometry x="270" y="1640" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mi8snnkDI5Ft30WNR5nc-12" value="&lt;font style=&quot;font-size: 13px&quot;&gt;&lt;b&gt;Renderer&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="Mi8snnkDI5Ft30WNR5nc-1">
-          <mxGeometry x="375" y="1750" width="80" height="80" as="geometry" />
+          <mxGeometry x="375" y="1740" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Mi8snnkDI5Ft30WNR5nc-13" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="Mi8snnkDI5Ft30WNR5nc-1" source="Mi8snnkDI5Ft30WNR5nc-3" target="Mi8snnkDI5Ft30WNR5nc-15">
           <mxGeometry relative="1" as="geometry" />
@@ -1183,9 +1183,9 @@
             <mxGeometry x="420" y="1472" width="140" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;ol style=&quot;font-size: 12px&quot;&gt;&lt;li&gt;Update velocity \(\mathbf{v}_i = \frac{1}{\Delta t}(\mathbf{x}_i^p - \mathbf{x}_i)\)&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;Update position \(\mathbf{x}_i = \mathbf{x}_i^p\)&lt;/li&gt;&lt;/ol&gt;" placeholders="1" name="Variable" id="Mi8snnkDI5Ft30WNR5nc-18">
+        <UserObject label="&lt;ol style=&quot;font-size: 12px&quot;&gt;&lt;li&gt;Correct velocity \(\mathbf{v}_i^t = \frac{1}{\Delta t}(\mathbf{x}_i^t - \mathbf{x}_i^{t-1})\)&lt;/li&gt;&lt;/ol&gt;" placeholders="1" name="Variable" id="Mi8snnkDI5Ft30WNR5nc-18">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;rounded=1;fontSize=10;" vertex="1" parent="Mi8snnkDI5Ft30WNR5nc-1">
-            <mxGeometry x="287.5" y="1650" width="240" height="60" as="geometry" />
+            <mxGeometry x="247.5" y="1653" width="312.5" height="50" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
