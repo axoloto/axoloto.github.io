@@ -47,8 +47,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Particle System Sandbox
-    url:               /pss/
+  - title:             RealTimeParticles
+    url:               /rtp/
   - title:             About
     url:               /about/
 
@@ -145,8 +145,9 @@ defaults:
         type:          WebPage
 
 kramdown:
-  math_engine:         katex
-  math_engine_opts:    {}
+  math_engine:         mathjax
+  math_engine_opts:
+    tags:              'ams'
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
 
