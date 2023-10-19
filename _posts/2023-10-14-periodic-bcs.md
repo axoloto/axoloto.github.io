@@ -1,8 +1,8 @@
 ---
 layout: post
-title: periodic bcs with pbf
+title: periodic bcs within pbd
 description: >
-  Implementation of periodic boundary conditions within a Position Based Fluids simulator.
+  Implementating periodic boundary conditions within a Position Based Dynamics framework.
   
   **Source code available [here](https://github.com/axoloto/RealTimeParticles).**
 sitemap: false
