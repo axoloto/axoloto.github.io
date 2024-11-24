@@ -2,7 +2,7 @@
 layout: post
 title: periodic bcs within pbd
 description: >
-  Implementating periodic boundary conditions within a Position Based Dynamics framework.
+  Implementation of periodic boundary conditions within a Position Based Dynamics framework.
   
   **Source code available [here](https://github.com/axoloto/RealTimeParticles).**
 sitemap: false
