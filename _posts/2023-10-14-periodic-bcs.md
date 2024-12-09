@@ -485,11 +485,11 @@ Does it work? Yes! The particles are finally crossing the periodic boundaries wi
 
 # Conclusion
 
-What a journey. It took a long time but we got there. If you are still here, **thanks you so much for following me this far**. I hope that it will be helpful at least for the few tormented souls who are also looking at implement similar periodic boundary conditions within a Position Based Dynamics framework.
+What a journey. It took a long time but we got there. If you are still here, **thanks you so much for following me this far**. I hope that it will be helpful at least for the few tormented souls who are also looking at implementing similar periodic boundary conditions within a Position Based Dynamics framework.
 
-To summarize, over the course of this blog post, I went through a series of progressively complex fixes and adjustments in order **to enable periodic boundary conditions in my Position Based Dynamics framework**. The challenge came in part from the spatial partitioning implemented to accelerate our Nearest Neighbor Search (NNS) algorithm.
+To summarize, over the course of this blog post, I went through a series of fixes and adjustments of progressive complexity in order **to enable periodic boundary conditions in my Position Based Dynamics framework**. The challenge came in part from the spatial partitioning implemented to accelerate our Nearest Neighbor Search (NNS) algorithm.
 
-Properly implementing this boundary condition was a challenge, but it was a necessary first step towards integrating my future solver. This one will be the main subject of my next article, stay tuned!
+Properly implementing this boundary condition was tricky, but it was a necessary first step towards integrating my future solver. This one will be the main subject of my next article, stay tuned!
 
 <p>&nbsp;</p>
 ![absDisplacement](/assets/img/blog/periodic/periodic-final-3D.gif){:.lead width="450" height="450"  loading="lazy"}
